@@ -1,0 +1,46 @@
+h2{color: #64c680;}
+
+a{
+    color: #778b7d;   
+}
+
+.logotipo{
+    
+    width:150px;
+    margin-left: 1300px;
+}
+
+.listaAlineada li{
+    
+    display: inline-block;
+    background-color: #007f5f;
+    color:whitesmoke;
+    width: 100px;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+.numerosRomanos li{
+
+    list-style: upper-roman inside; 
+}
+
+.listaImagenes li{
+
+list-style-image: url(descargar\ \(1\).png);
+}
+
+.imagen-mar  {
+    width: 60% ;
+    height: auto;
+    border: 5px solid #b5bdbb;
+    border-radius: 10px;
+    /*radiox, radioy, desenfoque, separacion, color*/
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+<picture>
+
+    <source> srcset=".imagen-mar" media="(min-width: 801px)">
+    <source> srcset=".imagen mar - mediana.png" media="(min-width: 600px)" and (max-width: 800px)>

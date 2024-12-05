@@ -1,0 +1,28 @@
+body{
+    
+}
+h2{color: #64c680;}
+
+a{
+    color: #778b7d;   
+}
+
+.listaAlineada li{
+    
+    display: inline-block;
+    background-color: #007f5f;
+    color:whitesmoke;
+    width: 100px;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+.numerosRomanos li{
+
+    list-style: upper-roman inside; 
+}
+
+.listaImagenes li{
+
+list-style-image: url(descargar.png);
+}

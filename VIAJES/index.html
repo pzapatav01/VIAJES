@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GUÍA DE VIAJES</title>
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+
+  <body>
+    <h2>GUÍA DE VIAJES</h2>
+    <!-- descargar un archivo poner ./ si esta en la misma carpeta y un download-->
+    <a href="./Lista viajer1.pdf" download></a>
+
+    <!-- un div es como una seccion o contenedor de una pagina -->
+    <!-- se pone un id para poder hacerle referencia a la seccion a la que se refiere mediante enlaces internos -->
+    <div id="indice">
+      <h3>Índice</h3>
+      <a href="#destinos">Destinos populares</a><br />
+      <a href="#consejosdeviaje">Consejos de viajes</a><br />
+      <a href="#recomendacionesderestaurante">Recomendaciones de restaurantes</a><br />
+    
+    </div>
+    <!-- br te hace una salto de linea -->
+    <br><br>
+    <div id="destinos">
+    <!-- target="_blank" te abre la pagina en una pestaña nueva -->
+     <a target="_blank" href="https://viajarcaribe.es/?lang=es">DESTINOS POPULARES</a>   
+    <br>
+    <!-- ./ hace referencia cualquier archivo que 
+     se encuentre dentro de la carpeta -->
+    <a href="https://viajarcaribe.es/?lang=es"><img width="200" src="./imagenCaribe.jpg" alt="imagenCaribe"></a>
+    </div>
+
+    <br><br>
+    <div id="consejosdeviaje">
+        <a target="_blank" href="https://www.worldpackers.com/es/articles/tips-de-viaje">CONSEJOS DE VIAJE</a>   
+    </div>
+
+    <br><br>
+    <div id="recomendacionesderestaurante">
+        <a target="_blank" href="https://www.tripadvisor.es/Restaurants-g147237-Caribbean.html">RECOMENDACIONES DE RESTAURANTE</a>   
+    </div>
+
+    <br><br>
+    <footer><a href="./nosotros.html"><i>About us</i></a></footer>
+  </body>
+</html>
